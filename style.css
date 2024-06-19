@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    color: aliceblue;
+    background-color: rgb(6, 0, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    height: 60px;
+    padding-right: 12px;
+}
+
+.formground {
+    background-color: rgba(68, 0, 255, 0.08);
+    max-width: 820px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+form input,
+form button {
+    font-size: 24px;
+    background-color: rgba(167, 167, 167, 0.04);
+    border: none;
+    padding: 8px;
+    color: white;
+}
+
+form input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+form input:focus {
+    outline: none; /* Remove o contorno padrão */
+    box-shadow: 0 0 2px #9790f85d, 0 0 4px #9790f85d, 0 0 6px #9790f85d, 0 0 8px #9790f85d; /* Efeito neon */
+    border: 1px solid #9790f85d; /* Borda neon */
+}
+
+form button {
+    background-color: #116abe;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Adicionado para layout fixo */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    width: calc(100% / 2); /* Dividido igualmente em 2 colunas */
+}
+
+thead {
+    background-color: #0e095a;
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.invert-icon {
+    filter: invert(100%);
+}
+
+.sumir{
+    display: none;
+}
+
+.paddingbotom{
+    padding-bottom: -12px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda telefônica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./img/phone.png" alt="Telefone" class="invert-icon">
+            <h1>Lista telefônica</h1>
+        </header>
+        <div class="formground">
+            <form action="" id="form-adicionar">
+                <input type="text" placeholder="Insira um nome" required id="nome">
+                <input type="tel" placeholder="Insira um telefone" required id="tel">
+                <button type="submit">Adicionar +</button>
+            </form>
+            <table cellspacing="0">
+                <thead class="sumir paddingbotom">
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
